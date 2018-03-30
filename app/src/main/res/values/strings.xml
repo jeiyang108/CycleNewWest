@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Cycle New West</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="hed_fav">Favourites</string>
+    <string name="hed_trails">Trails</string>
+    <string name="hed_workout">Workout</string>
+
+    <string name="lbl_fav">Favourites</string>
+
+    <string name="lbl_trails_name">Trail Name</string>
+    <string name="lbl_trails_length">Length in Kilometers</string>
+    <string-array name="spn_trails_length">
+        <item>All</item>
+        <item>0 - 2 km</item>
+        <item>2 - 4 km</item>
+        <item>4 - 6 km</item>
+        <item>6 - 8 km</item>
+        <item>8+ km</item>
+    </string-array>
+
+    <string name="btn_trails_search">Search</string>
+    <string name="btn_trails_name">Trail Name</string>
+
+    <string name="lbl_workout_start">Starting Location</string>
+    <string name="lbl_workout_length">Length in Kilometers</string>
+    <string name="btn_workout_route">Route</string>
+    <string-array name="spn_workout_length">
+        <item>Long (20 km)</item>
+        <item>Medium (10 km)</item>
+        <item>Short (5 km)</item>
+    </string-array>
+</resources>

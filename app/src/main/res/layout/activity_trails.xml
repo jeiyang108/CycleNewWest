@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBase"
+    tools:context="com.project.lyt.cyclenewwest.Activity.TrailsActivity">
+
+    <include layout="@layout/toolbar_main" android:id="@+id/toolbar"/>
+
+    <EditText
+        android:id="@+id/input_trails_name"
+        android:layout_width="match_parent"
+        android:hint="@string/lbl_trails_name"
+        style="@style/EdtBasic"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_trails_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/lbl_trails_length"
+            style="@style/LblBasic"/>
+
+        <Spinner
+            android:id="@+id/spn_length"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:entries="@array/spn_trails_length"
+            style="@style/SpnBasic"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:text="@string/btn_trails_search"
+        style="@style/BtnAccent"/>
+
+    <ListView
+        android:id="@+id/lst_trails_results"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/LstBasic"/>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    tools:context="com.project.lyt.cyclenewwest.Fragment.TrailsFragment">
+
+    <Button
+        android:id="@+id/btn_addFav"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@drawable/ic_grade_white_24dp"/>
+
+    <TextView
+        android:id="@+id/lbl_trail_name"
+        android:layout_width="match_parent"
+        android:text="@string/btn_trails_name"
+        style="@style/LblAccent"/>
+
+</RelativeLayout>

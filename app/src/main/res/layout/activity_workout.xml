@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBase"
+    tools:context="com.project.lyt.cyclenewwest.Activity.WorkoutActivity">
+
+    <include layout="@layout/toolbar_main" android:id="@+id/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/lbl_workout_start"
+        style="@style/LblBasic"/>
+
+    <TextView
+        android:id="@+id/input_workout_start"
+        android:layout_width="match_parent"
+        style="@style/EdtBasic"/>
+
+    <TextView
+        android:id="@+id/lbl_workout_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_workout_length"
+        style="@style/LblBasic"/>
+
+    <Spinner
+        android:id="@+id/input_workout_length"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:entries="@array/spn_workout_length"
+        style="@style/SpnBasic"
+        android:background="@drawable/input_bg"/>
+
+    <Button
+        android:id="@+id/btn_workout_route"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/btn_workout_route"
+        style="@style/BtnAccent"/>
+
+</LinearLayout>
